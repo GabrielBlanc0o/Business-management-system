@@ -33,6 +33,3 @@ build/
 .vscode/
 
 
-### Pre Compiles ###
-/target/
-
