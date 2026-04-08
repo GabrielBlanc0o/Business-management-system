@@ -14,7 +14,6 @@ public interface ProductRepository extends JpaRepository<Product,Long>
 // long typr for methods im gonna use later
 {
     List<Product> findByName(String name); //--> SELECT *FROM products WHERE name = ??
-
     List<Product> findPriceLessThan(Double price);//--> SELECT *FROM products WHERE price < ??
     
 } 
